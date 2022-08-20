@@ -1,0 +1,6 @@
+#/bin/bash
+
+set -eu
+
+brew bundle --file=Brewfile --no-lock
+chmod +x ./VDF.GUI
